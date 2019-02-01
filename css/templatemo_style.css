@@ -624,18 +624,6 @@ span.solid-line {
     transition: all 200ms ease-in-out;
 }
 
-.blog-blue {
-    background: url("../img/blog-blue.jpg");
-}
-
-.blog-pink {
-    background: url("../img/blog-pink.jpg");
-}
-
-.blog-green {
-    background: url("../img/blog-green.jpg");
-}
-
 .post-1 {
     -moz-animation-delay: 2.3s;
     -webkit-animation-delay: 2.3s;
