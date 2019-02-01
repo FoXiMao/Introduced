@@ -1,0 +1,262 @@
+﻿<!doctype html>
+<html lang="cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+<meta itemprop="name" content="小萌新的个人简介"/>
+<meta id="image" itemprop="image" content="https://www.citrons.cn/logo.png" />
+<meta name="description" itemprop="description" content="我也不知道我要去哪里，我只知道，有你的地方才是冬天的海南.We only accept the love we think we deserve." />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<title>小萌新的个人简介</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!--<link rel="stylesheet" href="static/css/simple-line-icons.css">-->
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/templatemo_style.css">
+<link rel="shortcut icon" type="image/x-icon" href="https://citrons-1256634104.cos.ap-shanghai.myqcloud.com/logo.png" media="screen" /> 
+<!--一言-->
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto; 
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
+
+</head>
+<!--
+  Author：Citrons@柠檬草
+  Website：https://www.citrons.cn/
+  E-mail:909229731@qq.com/citronsblog@gmail.com
+  QQ:909229731
+  Time:2019/02/01 16:12
+-->
+
+<body>
+
+<!--这里是上方的留白，万一以后想加个导航什么的呢。。。。-->
+<header class="site-header container animated fadeInDown">
+	<div class="header-wrapper"></div>
+</header>
+
+<div id="menu-container">
+	<div id="menu-1" class="homepage home-section container">
+		<div class="home-intro text-center">
+			<h2 class="welcome-title animated fadeInLeft">Citrons@柠檬草<p id="hitokoto">:D 获取中...</p></h2>
+			<p class="animated fadeInRight">我也不知道我要去哪里，我只知道，有你的地方才是冬天的海南。<br />I also do not know where I want to go, I only know, there is a place for you is the winter of Hainan.<br />我们只接受自己认为配得上的爱。<br />We only accept the love we think we deserve.</p>
+			<!--这个影响布局，我删了，同时也把css文件和图标包删了。。。留作纪念...
+            <ul class="list-icons animated fadeInUp">
+				<li><i class="icon-trophy"></i></li>
+				<li><i class="icon-badge"></i></li>
+				<li><i class="icon-magic-wand"></i></li>
+				<li><i class="icon-screen-desktop"></i></li>
+			</ul>-->
+		</div>
+        <div style="border-bottom: 2px solid #46494f;"></div>
+       <br /><br />
+		<div class="home-projects">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<div class="project-title animated fadeInUp">
+						<h3>最新项目</h3><p>LATEST PROJECTS</p>
+						<p>这是一堆心血来潮时随手写下来的，不知道后续更新/维护/完善是什么时候的小玩意<br />This is a bunch of whims written down at hand, do not know when the subsequent update/maintenance/improvement is when the gadget  </p>
+						<a href="https://www.citrons.cn/" class="pink-button">继续了解</a>
+					</div>
+				</div>
+				<div class="project-home-holder col-md-6 col-sm-12">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="project-item one animated fadeInRight">
+								<img src="picture/8.jpg" alt="">
+								<div class="overlay">
+									<h4><a href="https://www.citrons.cn/" class="tooltip-test" data-toggle="tooltip" title="一个萌新的博客">My Blog</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="project-item two animated fadeInRight">
+								<img src="picture/9.jpg" alt="">
+								<div class="overlay">
+									<h4><a href="https://www.citrons.cn/sinaimg" class="tooltip-test" data-toggle="tooltip" title="小萌新的新浪图床">Sina Album</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="project-item three animated fadeInRight">
+								<img src="picture/10.jpg" alt="">
+								<div class="overlay">
+									<h4><a href="https://www.citrons.cn/category/image/" class="tooltip-test" data-toggle="tooltip" title="我的相册">My albums</a></h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="project-item four animated fadeInRight">
+								<img src="picture/11.jpg" alt="">
+								<div class="overlay">
+									<h4><a href="https://www.citrons.cn/search" class="tooltip-test" data-toggle="tooltip" title="烦躁时敲下的浏览器主页">My Search</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+          <div style="border-bottom: 2px solid #46494f;"></div>
+<div class="projects-header">
+    <h3 class="animated fadeInRight">我的计划</h3>
+            <h3 class="animated fadeInRight">My plan</h3><br /><br />
+            <p class="animated fadeInLeft">我徘徊在没有你的世界，只为了把心找回来。<br /> I wander in a world without you, just to get my heart back.<br />假如可以的话，我愿意花去生命中的每一分每一秒，陪着你。<br />If I could, I would like to be with you every minute of my life.</p>
+        </div>
+        <div class="projects-holder">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/1.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="我还是想再等一等">我想</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/2.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="等一个不可能的可能">谈一次</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/3.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="你会爱我 在61分 在25小时 在星期八 在13月">并不轰轰烈烈的恋爱</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+                    <div class="project-item animated umScaleIn">
+                        <img src="picture/4.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="我希望睡前最后看到的是你">你愿意</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-5 animated umScaleIn">
+                        <img src="picture/5.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="我爱你的心直到世界末日也不变">陪我</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-6 animated umScaleIn">
+                        <img src="picture/6.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="我不要短暂的温存，只要你一世的陪伴">一起</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-7 animated umScaleIn">
+                        <img src="picture/7.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" title="人总是会老的，希望到时，你仍在我身边">吗？</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         <div style="border-bottom: 2px solid #46494f;"></div> <br />
+<div class="blog-header text-center">
+			<h3 class="animated fadeInRight">博客简介</h3>
+			<h3 class="animated fadeInRight">Blog Introduced</h3><br />
+			<p class="animated fadeInLeft">Citrons博客建立于2018年6月7日，使用程序为Emlog，主题为Dearm<br />2018年6月28日域名备案成功，于是博客迁至阿里云<br />同时更换博客程序为Typecho，主题更换为handome使用至今</p>
+			<a href="https://www.citrons.cn/" class="blog-button animated fadeInUp">点击访问</a>
+		</div>
+		<div class="row blog-posts">
+			<div class="col-md-4 col-sm-12">
+				<div class="blog-item post-1 animated zoomIn">
+					<div class="blog-bg blog-pink"></div>
+					<div class="blog-content">
+						<h3><a href="https://github.com/CitronsBlog">Web Design</a></h3>
+						<span class="solid-line"></span>
+						<p>无聊时就想着整一些稀奇古怪的东西，看似无脑，其实是真的无脑，更多知识还在学习中...</p>
+						<a href="https://www.citrons.cn/" class="post-button">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="blog-item post-2 animated zoomIn">
+					<div class="blog-bg blog-blue"></div>
+					<div class="blog-content">
+						<h3>Citrons'Blog APP</h3>
+						<span class="solid-line"></span>
+						<p>使用Fusion App制作了简易的WebApp，可以说毫无技术含量，目前已经着手开发更正式App...</p>
+						<a href="https://www.citrons.cn/jishu/99.html" class="post-button">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="blog-item post-3 animated zoomIn">
+					<div class="blog-bg blog-green"></div>
+					<div class="blog-content">
+						<h3>Blogger</h3>
+						<span class="solid-line"></span>
+						<p>性别男，爱好女，至今单身，喜欢熬夜，不习惯处于有噪音的环境，特别内向，患有焦虑性抑郁症...</p>
+						<a href="https://www.citrons.cn/cross.html" class="post-button">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<footer class="site-footer container text-center">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="main-footer">
+				<ul class="social">
+					<li><a href="https://www.facebook.com/pio.citrons">Facebook</a></li>
+					<li><a href="https://www.citrons.cn/">Ctrons'Blog</a></li>
+					<li><a href="https://weibo.com/u/6620261949">Sina</a></li>
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=909229731&site=qq&menu=yes">QQ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 copyright">
+			<p>Copyright &copy; 2019&nbsp;&nbsp;Company&nbsp;&nbsp;<a href="https://www.citrons.cn/">Citrons@柠檬草</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a  href="http://www.miitbeian.gov.cn/" rel="nofollow" target="_blank">湘ICP备18012872号</a></p>
+		</div>
+	</div>
+</footer>
+<!-- templatemo 421 raleway -->
+<span class="border-top"></span>
+<span class="border-left"></span>
+<span class="border-right"></span>
+<span class="border-bottom"></span>
+
+
+<!--还是太臃肿了，删之...
+<script src="../js/jquery.min.js"></script>
+<script src="../js/templatemo_custom.js"></script>-->
+
+</body>
+</html>
